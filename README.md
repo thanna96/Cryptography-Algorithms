@@ -1,6 +1,6 @@
 # Overview:
 These programs are designed to help decrypt or encrypt plaintext. Each program has its own specific use 
-from encrypting/decrypting to finding primes or factoring integers. 
+from encrypting/decrypting to finding primes or factoring integers.  
 
 # 1- Shift Cipher:
 This program uses the Caesar cipher to encrypt or decrypt your text.
