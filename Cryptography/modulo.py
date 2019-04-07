@@ -1,3 +1,5 @@
+#Thomas Hanna - modulus calculator
+#finds some numbers that are the remainder of another number
 def modSet(a,b):
 	modSet = []
 	for i in range(-15,15):

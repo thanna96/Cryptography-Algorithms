@@ -1,3 +1,5 @@
+#Thomas Hanna - GCD
+#finds the gcd of two numbers if it has one
 def gcd(a,b):
 	if b == 0:
 		return a

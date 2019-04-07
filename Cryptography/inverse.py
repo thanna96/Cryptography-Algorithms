@@ -1,9 +1,14 @@
+#Thomas Hanna - inverse calculator
+#Finds the inverse of a number mod x if it has one
+
+#find the GCD using Euclideans algorithm
 def gcd(a,b):
 	if b == 0:
 		return a 
 	else:
 		return gcd(b,a%b)
 
+#finds the inverse using a brute force method
 def inverse(a,b):
 	n = 0
 	i = 0

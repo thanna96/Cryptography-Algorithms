@@ -1,9 +1,14 @@
+#Thomas Hanna - Substitution Cipher Decryptor
+
+#imports:
 import sys
 
+#Variables:
 alphabet = "abcdefghijklmnopqrstuvwxyz "
 cFile = sys.argv[1]
 kFile = sys.argv[2]
 
+#Reads the input files and counts the number of each letter
 def read_text(file):
 	Dict = {}
 	for c in alphabet:
@@ -15,6 +20,7 @@ def read_text(file):
 					Dict[ch.lower()] += 1 
 	return Dict
 
+#Creates the mappings for the letters 
 def map_letters(known,cipher):
 	mappings = {}
 	cipherKeys = []
@@ -31,6 +37,7 @@ def map_letters(known,cipher):
 	
 	return mappings
 
+#iterates through the cipher text file and replaces letters according to the mapping
 def decrypt(ciphertext,mapping):
 	pText = ""
 	with open(ciphertext) as f:

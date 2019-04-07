@@ -1,3 +1,5 @@
+#Thomas Hanna - Divisibility checker
+#Checks if two numbers divide eachother or not.
 i = 1
 while i == 1:
 	print("Enter two numbers a|b : ")
